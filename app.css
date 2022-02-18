@@ -67,7 +67,7 @@ canvas {
 }
 button {
   position: absolute;
-  top: 0em;
+  top: 0%;
   left: 5em;
   background-color: rgb(168, 190, 237);
   border: none;
@@ -81,7 +81,7 @@ button {
 }
 input {
   position: absolute;
-  top: 0em;
+  top: 0%;
   left: -3em;
   width: 140px;
   height: 40px;
@@ -92,7 +92,7 @@ input {
 }
 #time {
   position: absolute;
-  top: 20em;
-  left: 12em;
+  top: 30%;
+  left: 10%;
   color: rgb(168, 190, 237);
 }

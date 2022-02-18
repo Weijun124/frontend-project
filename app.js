@@ -114,24 +114,24 @@ camera.position.z = 1; //set camera position to view object
 //add light to object
 
 //build the cube
-const geometry = new THREE.BoxGeometry(); //object for cube shape (it contain the vertices and faces)
+const geometry = new THREE.SphereGeometry(); //object for cube shape (it contain the vertices and faces)
 const material = new THREE.MeshNormalMaterial({ wireframe: true }); //object color structure
 // const material = new THREE.MeshLambertMaterial({ color: 0x00ff00 });
 const mesh = new THREE.Mesh(geometry, material);
 scene.add(mesh);
 mesh.scale.set(2, 2, 6);
 
-const geometry2 = new THREE.BoxGeometry();
+const geometry2 = new THREE.SphereGeometry();
 const material2 = new THREE.MeshNormalMaterial({ wireframe: true });
 const mesh2 = new THREE.Mesh(geometry2, material2);
 scene.add(mesh2);
-mesh2.scale.set(2, 6, 2);
+mesh2.scale.set(0.2, 6, 2);
 
-const geometry3 = new THREE.BoxGeometry();
+const geometry3 = new THREE.SphereGeometry();
 const material3 = new THREE.MeshNormalMaterial({ wireframe: true }); //object color
 const mesh3 = new THREE.Mesh(geometry3, material3);
 scene.add(mesh3);
-mesh3.scale.set(6, 2, 2);
+mesh3.scale.set(0.2, 3, 3);
 
 // const controls = new OrbitControls(camera, renderer.domElement);
 
